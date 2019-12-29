@@ -4,7 +4,7 @@
 
 - Added `ignoreResources` option.
 - Removed ignoring `fonts.googleapis.com` by default.
-- Fixed overwriting the `integrity` attribute of remote resources.
+- Fixed overwriting the existing `integrity` attribute of remote resources.
 - Added `'use strict';`.
 
 ## v0.1.0 / 2019-05-25
