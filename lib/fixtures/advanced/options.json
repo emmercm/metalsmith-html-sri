@@ -1,6 +1,6 @@
 {
   "ignoreResources": [
-    "fonts.googleapis.com"
+    "fonts\\.googleapis\\.com"
   ],
   "algorithm": [
     "sha256",

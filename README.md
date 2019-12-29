@@ -75,12 +75,12 @@ Metalsmith(__dirname)
 
 ### `ignoreResources`
 
-`Array` - regular expressions or partial strings of resources to be ignored:
+`Array` - regular expressions of resources to be ignored:
 
 ```json
 {
     "ignoreResources": [
-        "fonts.googleapis.com"
+        "fonts\\.googleapis\\.com"
     ]
 }
 ```
