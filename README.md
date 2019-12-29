@@ -46,6 +46,7 @@ Metalsmith(__dirname)
             "selector": ":not([type]), [type!=\"module\"]"
         }
     },
+    "ignoreResources": [],
     "algorithm": "sha384"
 }
 ```
@@ -70,6 +71,18 @@ Metalsmith(__dirname)
             "selector": ":not([type]), [type!=\"module\"]"
         }
     }
+}
+```
+
+### `ignoreResources`
+
+`Array` - regular expressions or partial strings of resources to be ignored:
+
+```json
+{
+    "ignoreResources": [
+        "fonts.googleapis.com"
+    ]
 }
 ```
 
